@@ -16,7 +16,7 @@ import 'package:modal_bottom_sheet/src/utils/bottom_sheet_suspended_curve.dart';
 const Curve _decelerateEasing = Cubic(0.0, 0.0, 0.2, 1.0);
 const Curve _modalBottomSheetCurve = _decelerateEasing;
 const Duration _bottomSheetDuration = Duration(milliseconds: 400);
-const double _minFlingVelocity = 500.0;
+const double _minFlingVelocity = 700.0;
 const double _closeProgressThreshold = 0.6;
 const double _willPopThreshold = 0.8;
 
